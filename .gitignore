@@ -1,0 +1,13 @@
+### Gradle ###
+.gradle
+/build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### Properties ###
+application-dev.properties
