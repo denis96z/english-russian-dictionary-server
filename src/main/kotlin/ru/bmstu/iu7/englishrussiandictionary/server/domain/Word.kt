@@ -1,4 +1,4 @@
-package ru.bmstu.iu7.englishrussiandictionaryserver.domain
+package ru.bmstu.iu7.englishrussiandictionary.server.domain
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document

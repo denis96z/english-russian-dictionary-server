@@ -1,10 +1,10 @@
-package ru.bmstu.iu7.englishrussiandictionaryserver.controller.api
+package ru.bmstu.iu7.englishrussiandictionary.server.controller.api
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
-import ru.bmstu.iu7.englishrussiandictionaryserver.exception.NotFoundException
-import ru.bmstu.iu7.englishrussiandictionaryserver.service.WordService
+import ru.bmstu.iu7.englishrussiandictionary.server.exception.NotFoundException
+import ru.bmstu.iu7.englishrussiandictionary.server.service.WordService
 
 @RestController
 @RequestMapping("/api/words")

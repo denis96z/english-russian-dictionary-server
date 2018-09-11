@@ -1,9 +1,9 @@
-package ru.bmstu.iu7.englishrussiandictionaryserver.service
+package ru.bmstu.iu7.englishrussiandictionary.server.service
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
-import ru.bmstu.iu7.englishrussiandictionaryserver.exception.NotFoundException
-import ru.bmstu.iu7.englishrussiandictionaryserver.repository.WordRepository
+import ru.bmstu.iu7.englishrussiandictionary.server.exception.NotFoundException
+import ru.bmstu.iu7.englishrussiandictionary.server.repository.WordRepository
 
 @Service
 class WordServiceImpl(@Autowired

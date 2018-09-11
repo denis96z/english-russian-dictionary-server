@@ -1,4 +1,4 @@
-package ru.bmstu.iu7.englishrussiandictionaryserver.service
+package ru.bmstu.iu7.englishrussiandictionary.server.service
 
 interface WordService {
     fun translateWordFromEnglishIntoRussian(word: String) : String
