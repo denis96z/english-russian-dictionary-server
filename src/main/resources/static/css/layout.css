@@ -1,0 +1,12 @@
+.application-header {
+    text-align: center;
+}
+
+h1.application-title {
+    font-size: 50px;
+}
+
+img.application-img {
+    width: 50%;
+    height: 50%;
+}
