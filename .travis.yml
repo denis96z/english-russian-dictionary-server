@@ -1,0 +1,15 @@
+branches:
+  only:
+  - master
+  - develop
+
+language: java
+jdk:
+- openjdk8
+
+before_install:
+- chmod +x ./gradle/wrapper/gradle-wrapper.jar
+- chmod +x ./gradlew
+
+script:
+- ./gradlew build
