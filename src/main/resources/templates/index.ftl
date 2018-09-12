@@ -5,7 +5,8 @@
 <#macro page_content>
     <div class="application-header">
         <h1 class="application-title">English-Russian Dictionary</h1><br/>
-        <img src="/img/book.png" class="application-img">
+        <img src="/img/book.png" class="application-img"><br/>
+        <span>2018</span>
     </div>
 </#macro>
 
