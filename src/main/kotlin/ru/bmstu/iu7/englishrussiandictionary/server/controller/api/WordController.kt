@@ -23,6 +23,6 @@ class WordController(@Autowired
     @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(NotFoundException::class)
     fun handleNotFoundException(exception: NotFoundException) : String? {
-        return exception.message
+        return """Error: ${exception.message}"""
     }
 }

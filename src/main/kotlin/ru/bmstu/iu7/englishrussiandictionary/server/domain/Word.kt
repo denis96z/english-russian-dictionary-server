@@ -1,12 +1,12 @@
 package ru.bmstu.iu7.englishrussiandictionary.server.domain
 
-import org.springframework.data.annotation.Id
-import org.springframework.data.mongodb.core.mapping.Document
+import javax.persistence.Entity
+import javax.persistence.Id
 
-@Document
+@Entity
 data class Word(
         @Id
-        var id: String = "",
+        var id: Long = 0,
         var inEnglish: String = "",
         var inRussian: String = ""
 )
